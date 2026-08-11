@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Programming - NRIIT</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4faff;
+            color: #222;
+        }
+
+        header {
+            background-color: #d9f2ff;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            color: #075985;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #555;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 40px auto;
+        }
+
+        .page-title {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .page-title h2 {
+            color: #075985;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .page-title p {
+            color: #666;
+        }
+
+        .topics {
+            display: grid;
+            grid-template-columns:
+            repeat(auto-fit, minmax(230px, 1fr));
+            gap: 20px;
+        }
+
+        .topic-card {
+            background-color: white;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+
+            box-shadow:
+            0 4px 15px rgba(0,0,0,0.10);
+
+            transition: 0.3s;
+        }
+
+        .topic-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .topic-icon {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .topic-card h3 {
+            color: #075985;
+            margin-bottom: 10px;
+        }
+
+        .topic-card p {
+            color: #666;
+            line-height: 1.5;
+        }
+
+        .topic-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 18px;
+
+            background-color: #0284c7;
+            color: white;
+
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        .topic-btn:hover {
+            background-color: #075985;
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 35px;
+            padding: 12px 20px;
+
+            background-color: #111827;
+            color: white;
+
+            text-decoration: none;
+            border-radius: 7px;
+        }
+
+        footer {
+            margin-top: 50px;
+            background-color: #111827;
+            color: white;
+
+            text-align: center;
+            padding: 25px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+    <h1>
+        NRI INSTITUTE OF TECHNOLOGY
+    </h1>
+
+    <p>
+        Programming Learning Portal
+    </p>
+
+</header>
+
+
+<div class="container">
+
+
+    <div class="page-title">
+
+        <h2>
+            💻 Programming
+        </h2>
+
+        <p>
+            Select a programming topic to start learning.
+        </p>
+
+    </div>
+
+
+    <div class="topics">
+
+
+        <!-- C PROGRAMMING -->
+
+        <div class="topic-card">
+
+            <div class="topic-icon">©️</div>
+
+            <h3>C Programming</h3>
+
+            <p>
+                Learn C programming from basics
+                to problem solving.
+            </p>
+
+            <a href="c-programming.html"
+               class="topic-btn">
+
+                Open Topic
+
+            </a>
+
+        </div>
+
+
+        <!-- PYTHON -->
+
+        <div class="topic-card">
+
+            <div class="topic-icon">🐍</div>
+
+            <h3>Python</h3>
+
+            <p>
+                Learn Python syntax, functions,
+                data structures and programming.
+            </p>
+
+            <a href="python.html"
+               class="topic-btn">
+
+                Open Topic
+
+            </a>
+
+        </div>
+
+
+        <!-- JAVA -->
+
+        <div class="topic-card">
+
+            <div class="topic-icon">☕</div>
+
+            <h3>Java</h3>
+
+            <p>
+                Learn Java fundamentals,
+                OOP concepts and applications.
+            </p>
+
+            <a href="java.html"
+               class="topic-btn">
+
+                Open Topic
+
+            </a>
+
+        </div>
+
+
+        <!-- DATA STRUCTURES -->
+
+        <div class="topic-card">
+
+            <div class="topic-icon">🌳</div>
+
+            <h3>Data Structures</h3>
+
+            <p>
+                Learn arrays, linked lists, stacks,
+                queues, trees and graphs.
+            </p>
+
+            <a href="data-structures.html"
+               class="topic-btn">
+
+                Open Topic
+
+            </a>
+
+        </div>
+
+
+        <!-- ALGORITHMS -->
+
+        <div class="topic-card">
+
+            <div class="topic-icon">⚙️</div>
+
+            <h3>Algorithms</h3>
+
+            <p>
+                Learn searching, sorting,
+                recursion and algorithmic thinking.
+            </p>
+
+            <a href="algorithms.html"
+               class="topic-btn">
+
+                Open Topic
+
+            </a>
+
+        </div>
+
+
+        <!-- OOP -->
+
+        <div class="topic-card">
+
+            <div class="topic-icon">🧩</div>
+
+            <h3>Object Oriented Programming</h3>
+
+            <p>
+                Learn classes, objects, inheritance,
+                polymorphism and abstraction.
+            </p>
+
+            <a href="oop.html"
+               class="topic-btn">
+
+                Open Topic
+
+            </a>
+
+        </div>
+
+
+        <!-- WEB DEVELOPMENT -->
+
+        <div class="topic-card">
+
+            <div class="topic-icon">🌐</div>
+
+            <h3>Web Development</h3>
+
+            <p>
+                Learn HTML, CSS, JavaScript
+                and web development basics.
+            </p>
+
+            <a href="web-development.html"
+               class="topic-btn">
+
+                Open Topic
+
+            </a>
+
+        </div>
+
+
+        <!-- JAVASCRIPT -->
+
+        <div class="topic-card">
+
+            <div class="topic-icon">📜</div>
+
+            <h3>JavaScript</h3>
+
+            <p>
+                Learn JavaScript fundamentals,
+                DOM and interactive websites.
+            </p>
+
+            <a href="javascript.html"
+               class="topic-btn">
+
+                Open Topic
+
+            </a>
+
+        </div>
+
+
+        <!-- DATABASE -->
+
+        <div class="topic-card">
+
+            <div class="topic-icon">🗄️</div>
+
+            <h3>Database & SQL</h3>
+
+            <p>
+                Learn SQL queries, tables,
+                relationships and databases.
+            </p>
+
+            <a href="sql.html"
+               class="topic-btn">
+
+                Open Topic
+
+            </a>
+
+        </div>
+
+
+        <!-- GIT -->
+
+        <div class="topic-card">
+
+            <div class="topic-icon">🔧</div>
+
+            <h3>Git & GitHub</h3>
+
+            <p>
+                Learn version control,
+                Git commands and GitHub.
+            </p>
+
+            <a href="git-github.html"
+               class="topic-btn">
+
+                Open Topic
+
+            </a>
+
+        </div>
+
+
+        <!-- PROBLEM SOLVING -->
+
+        <div class="topic-card">
+
+            <div class="topic-icon">🧠</div>
+
+            <h3>Problem Solving</h3>
+
+            <p>
+                Practice logical thinking,
+                coding problems and challenges.
+            </p>
+
+            <a href="problem-solving.html"
+               class="topic-btn">
+
+                Open Topic
+
+            </a>
+
+        </div>
+
+
+    </div>
+
+
+    <a href="academic.html"
+       class="back-btn">
+
+        ← Back to Academic Learning
+
+    </a>
+
+
+</div>
+
+
+<footer>
+
+    <p>
+        © 2026 NRI Institute of Technology
+    </p>
+
+    <p>
+        Programming Learning Portal
+    </p>
+
+</footer>
+
+
+</body>
+
+</html>

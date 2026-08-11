@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>DBMS - NRIIT</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4faff;
+            color: #222;
+        }
+
+        /* Header */
+
+        header {
+            background-color: #d9f2ff;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            color: #075985;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #555;
+        }
+
+        /* Main */
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 40px auto;
+        }
+
+        .page-title {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .page-title h2 {
+            color: #075985;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .page-title p {
+            color: #666;
+        }
+
+        /* Topics */
+
+        .topics {
+            display: grid;
+
+            grid-template-columns:
+            repeat(auto-fit, minmax(250px, 1fr));
+
+            gap: 20px;
+        }
+
+        .topic-card {
+            background-color: white;
+
+            padding: 25px;
+
+            border-radius: 12px;
+
+            text-align: center;
+
+            box-shadow:
+            0 4px 15px rgba(0, 0, 0, 0.10);
+
+            transition: 0.3s;
+        }
+
+        .topic-card:hover {
+            transform: translateY(-5px);
+
+            box-shadow:
+            0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .topic-number {
+            color: #0284c7;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .topic-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .topic-card h3 {
+            color: #075985;
+            margin-bottom: 10px;
+        }
+
+        .topic-card p {
+            color: #666;
+            line-height: 1.5;
+        }
+
+        /* Button */
+
+        .topic-btn {
+            display: inline-block;
+
+            margin-top: 15px;
+
+            padding: 10px 18px;
+
+            background-color: #0284c7;
+
+            color: white;
+
+            text-decoration: none;
+
+            border-radius: 6px;
+        }
+
+        .topic-btn:hover {
+            background-color: #075985;
+        }
+
+        /* Back */
+
+        .back-btn {
+            display: inline-block;
+
+            margin-top: 35px;
+
+            padding: 12px 20px;
+
+            background-color: #111827;
+
+            color: white;
+
+            text-decoration: none;
+
+            border-radius: 7px;
+        }
+
+        /* Footer */
+
+        footer {
+            margin-top: 50px;
+
+            background-color: #111827;
+
+            color: white;
+
+            text-align: center;
+
+            padding: 25px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<!-- HEADER -->
+
+<header>
+
+    <h1>
+        NRI INSTITUTE OF TECHNOLOGY
+    </h1>
+
+    <p>
+        Second Year • Database Management Systems
+    </p>
+
+</header>
+
+
+<!-- MAIN -->
+
+<div class="container">
+
+
+    <div class="page-title">
+
+        <h2>
+            🗄️ Database Management Systems
+        </h2>
+
+        <p>
+            Select a topic to start learning.
+        </p>
+
+    </div>
+
+
+    <div class="topics">
+
+
+        <!-- 1 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 01</div>
+
+            <div class="topic-icon">📘</div>
+
+            <h3>Introduction to DBMS</h3>
+
+            <p>
+                Learn the basics of databases
+                and database management systems.
+            </p>
+
+            <a href="dbms-introduction.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+        <!-- 2 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 02</div>
+
+            <div class="topic-icon">📁</div>
+
+            <h3>DBMS vs File System</h3>
+
+            <p>
+                Understand the difference between
+                traditional file systems and DBMS.
+            </p>
+
+            <a href="dbms-file-system.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+        <!-- 3 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 03</div>
+
+            <div class="topic-icon">🏗️</div>
+
+            <h3>Database Architecture</h3>
+
+            <p>
+                Learn database architecture,
+                levels and system components.
+            </p>
+
+            <a href="database-architecture.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+        <!-- 4 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 04</div>
+
+            <div class="topic-icon">🧩</div>
+
+            <h3>Data Models</h3>
+
+            <p>
+                Learn different types of data
+                models used in databases.
+            </p>
+
+            <a href="data-models.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+        <!-- 5 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 05</div>
+
+            <div class="topic-icon">🔗</div>
+
+            <h3>ER Model</h3>
+
+            <p>
+                Learn entities, attributes,
+                relationships and ER concepts.
+            </p>
+
+            <a href="er-model.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+        <!-- 6 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 06</div>
+
+            <div class="topic-icon">📊</div>
+
+            <h3>ER Diagrams</h3>
+
+            <p>
+                Learn how to represent entities
+                and relationships using diagrams.
+            </p>
+
+            <a href="er-diagrams.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+        <!-- 7 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 07</div>
+
+            <div class="topic-icon">🗃️</div>
+
+            <h3>Relational Model</h3>
+
+            <p>
+                Learn tables, rows, columns
+                and relational database concepts.
+            </p>
+
+            <a href="relational-model.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+        <!-- 8 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 08</div>
+
+            <div class="topic-icon">🔑</div>
+
+            <h3>Keys</h3>
+
+            <p>
+                Learn Primary Key, Foreign Key,
+                Candidate Key, Super Key and more.
+            </p>
+
+            <a href="keys.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+        <!-- 9 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 09</div>
+
+            <div class="topic-icon">➗</div>
+
+            <h3>Relational Algebra</h3>
+
+            <p>
+                Learn basic relational algebra
+                operations and expressions.
+            </p>
+
+            <a href="relational-algebra.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+        <!-- 10 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 10</div>
+
+            <div class="topic-icon">💻</div>
+
+            <h3>SQL Introduction</h3>
+
+            <p>
+                Learn SQL basics and how to
+                communicate with databases.
+            </p>
+
+            <a href="sql-introduction.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+        <!-- 11 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 11</div>
+
+            <div class="topic-icon">🛠️</div>
+
+            <h3>DDL Commands</h3>
+
+            <p>
+                Learn CREATE, ALTER, DROP
+                and TRUNCATE commands.
+            </p>
+
+            <a href="ddl.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+        <!-- 12 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 12</div>
+
+            <div class="topic-icon">✏️</div>
+
+            <h3>DML Commands</h3>
+
+            <p>
+                Learn INSERT, UPDATE
+                and DELETE commands.
+            </p>
+
+            <a href="dml.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+        <!-- 13 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 13</div>
+
+            <div class="topic-icon">🔍</div>
+
+            <h3>DQL - SELECT</h3>
+
+            <p>
+                Learn SELECT queries and
+                retrieve data from tables.
+            </p>
+
+            <a href="dql.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+        <!-- 14 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 14</div>
+
+            <div class="topic-icon">⚙️</div>
+
+            <h3>SQL Operators</h3>
+
+            <p>
+                Learn comparison, logical,
+                arithmetic and other operators.
+            </p>
+
+            <a href="sql-operators.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+        <!-- 15 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 15</div>
+
+            <div class="topic-icon">🧮</div>
+
+            <h3>SQL Functions</h3>
+
+            <p>
+                Learn aggregate and
+                single-row SQL functions.
+            </p>
+
+            <a href="sql-functions.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+        <!-- 16 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 16</div>
+
+            <div class="topic-icon">📊</div>
+
+            <h3>GROUP BY & HAVING</h3>
+
+            <p>
+                Learn grouping records and
+                filtering grouped results.
+            </p>
+
+            <a href="group-by-having.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+        <!-- 17 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 17</div>
+
+            <div class="topic-icon">🔗</div>
+
+            <h3>SQL Joins</h3>
+
+            <p>
+                Learn INNER, LEFT, RIGHT
+                and FULL joins.
+            </p>
+
+            <a href="joins.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+        <!-- 18 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 18</div>
+
+            <div class="topic-icon">🔎</div>
+
+            <h3>Subqueries</h3>
+
+            <p>
+                Learn nested queries and
+                subquery techniques.
+            </p>
+
+            <a href="subqueries.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+        <!-- 19 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 19</div>
+
+            <div class="topic-icon">👁️</div>
+
+            <h3>Views</h3>
+
+            <p>
+                Learn how to create and
+                use database views.
+            </p>
+
+            <a href="views.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+        <!-- 20 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 20</div>
+
+            <div class="topic-icon">⚡</div>
+
+            <h3>Indexing</h3>
+
+            <p>
+                Learn database indexes
+                and query performance.
+            </p>
+
+            <a href="indexing.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+        <!-- 21 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 21</div>
+
+            <div class="topic-icon">🔗</div>
+
+            <h3>Functional Dependencies</h3>
+
+            <p>
+                Learn functional dependencies
+                and their role in database design.
+            </p>
+
+            <a href="functional-dependencies.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+        <!-- 22 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 22</div>
+
+            <div class="topic-icon">📐</div>
+
+            <h3>Normalization</h3>
+
+            <p>
+                Learn 1NF, 2NF, 3NF
+                and BCNF.
+            </p>
+
+            <a href="normalization.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+        <!-- 23 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 23</div>
+
+            <div class="topic-icon">🔄</div>
+
+            <h3>Transactions</h3>
+
+            <p>
+                Learn database transactions
+                and transaction states.
+            </p>
+
+            <a href="transactions.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+        <!-- 24 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 24</div>
+
+            <div class="topic-icon">🛡️</div>
+
+            <h3>ACID Properties</h3>
+
+            <p>
+                Learn Atomicity, Consistency,
+                Isolation and Durability.
+            </p>
+
+            <a href="acid-properties.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+        <!-- 25 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 25</div>
+
+            <div class="topic-icon">🔐</div>
+
+            <h3>Concurrency Control</h3>
+
+            <p>
+                Learn techniques for managing
+                simultaneous database operations.
+            </p>
+
+            <a href="concurrency-control.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+        <!-- 26 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 26</div>
+
+            <div class="topic-icon">⚠️</div>
+
+            <h3>Deadlocks</h3>
+
+            <p>
+                Learn deadlock concepts,
+                causes and prevention.
+            </p>
+
+            <a href="deadlocks.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+        <!-- 27 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 27</div>
+
+            <div class="topic-icon">🔒</div>
+
+            <h3>Database Security</h3>
+
+            <p>
+                Learn authentication,
+                authorization and database security.
+            </p>
+
+            <a href="database-security.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+        <!-- 28 -->
+
+        <div class="topic-card">
+
+            <div class="topic-number">TOPIC 28</div>
+
+            <div class="topic-icon">💾</div>
+
+            <h3>Backup & Recovery</h3>
+
+            <p>
+                Learn database backup,
+                recovery and data protection.
+            </p>
+
+            <a href="backup-recovery.html"
+               class="topic-btn">
+                Open Topic
+            </a>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- BACK BUTTON -->
+
+    <a href="second-year.html"
+       class="back-btn">
+
+        ← Back to Second Year
+
+    </a>
+
+
+</div>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <p>
+        © 2026 NRI Institute of Technology
+    </p>
+
+    <p>
+        Database Management Systems Learning Portal
+    </p>
+
+</footer>
+
+
+</body>
+
+</html>

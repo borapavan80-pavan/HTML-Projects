@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Chemistry - NRIIT</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4faff;
+            color: #222;
+        }
+
+        /* Header */
+
+        header {
+            background-color: #d9f2ff;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            color: #075985;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #555;
+        }
+
+        /* Main Container */
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 40px auto;
+        }
+
+        .page-title {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .page-title h2 {
+            color: #075985;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .page-title p {
+            color: #666;
+        }
+
+        /* Topics */
+
+        .topics {
+            display: grid;
+
+            grid-template-columns:
+            repeat(auto-fit, minmax(230px, 1fr));
+
+            gap: 20px;
+        }
+
+        .topic-card {
+            background-color: white;
+
+            padding: 25px;
+
+            border-radius: 12px;
+
+            text-align: center;
+
+            box-shadow:
+            0 4px 15px rgba(0,0,0,0.10);
+
+            transition: 0.3s;
+        }
+
+        .topic-card:hover {
+            transform: translateY(-5px);
+
+            box-shadow:
+            0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        .topic-icon {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .topic-card h3 {
+            color: #075985;
+            margin-bottom: 10px;
+        }
+
+        .topic-card p {
+            color: #666;
+            line-height: 1.5;
+        }
+
+        /* Button */
+
+        .topic-btn {
+            display: inline-block;
+
+            margin-top: 15px;
+
+            padding: 10px 18px;
+
+            background-color: #0284c7;
+
+            color: white;
+
+            text-decoration: none;
+
+            border-radius: 6px;
+        }
+
+        .topic-btn:hover {
+            background-color: #075985;
+        }
+
+        /* Back Button */
+
+        .back-btn {
+            display: inline-block;
+
+            margin-top: 35px;
+
+            padding: 12px 20px;
+
+            background-color: #111827;
+
+            color: white;
+
+            text-decoration: none;
+
+            border-radius: 7px;
+        }
+
+        /* Footer */
+
+        footer {
+            margin-top: 50px;
+
+            background-color: #111827;
+
+            color: white;
+
+            text-align: center;
+
+            padding: 25px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<!-- HEADER -->
+
+<header>
+
+    <h1>
+        NRI INSTITUTE OF TECHNOLOGY
+    </h1>
+
+    <p>
+        Chemistry Learning Portal
+    </p>
+
+</header>
+
+
+<!-- MAIN -->
+
+<div class="container">
+
+
+    <div class="page-title">
+
+        <h2>
+            🧪 Engineering Chemistry
+        </h2>
+
+        <p>
+            Select a topic to start learning.
+        </p>
+
+    </div>
+
+
+    <div class="topics">
+
+
+        <!-- ATOMIC STRUCTURE -->
+
+        <div class="topic-card">
+
+            <div class="topic-icon">
+                ⚛️
+            </div>
+
+            <h3>
+                Atomic Structure
+            </h3>
+
+            <p>
+                Learn atoms, electrons, orbitals,
+                quantum numbers and electronic configuration.
+            </p>
+
+            <a href="atomic-structure.html"
+               class="topic-btn">
+
+                Open Topic
+
+            </a>
+
+        </div>
+
+
+        <!-- PERIODIC TABLE -->
+
+        <div class="topic-card">
+
+            <div class="topic-icon">
+                🧪
+            </div>
+
+            <h3>
+                Periodic Table
+            </h3>
+
+            <p>
+                Learn periodic classification,
+                groups, periods and periodic properties.
+            </p>
+
+            <a href="periodic-table.html"
+               class="topic-btn">
+
+                Open Topic
+
+            </a>
+
+        </div>
+
+
+        <!-- CHEMICAL BONDING -->
+
+        <div class="topic-card">
+
+            <div class="topic-icon">
+                🔗
+            </div>
+
+            <h3>
+                Chemical Bonding
+            </h3>
+
+            <p>
+                Learn ionic, covalent and metallic
+                bonding and molecular structures.
+            </p>
+
+            <a href="chemical-bonding.html"
+               class="topic-btn">
+
+                Open Topic
+
+            </a>
+
+        </div>
+
+
+        <!-- THERMODYNAMICS -->
+
+        <div class="topic-card">
+
+            <div class="topic-icon">
+                🌡️
+            </div>
+
+            <h3>
+                Thermodynamics
+            </h3>
+
+            <p>
+                Learn energy, enthalpy, entropy,
+                Gibbs energy and thermodynamic laws.
+            </p>
+
+            <a href="thermodynamics.html"
+               class="topic-btn">
+
+                Open Topic
+
+            </a>
+
+        </div>
+
+
+        <!-- ELECTROCHEMISTRY -->
+
+        <div class="topic-card">
+
+            <div class="topic-icon">
+                🔋
+            </div>
+
+            <h3>
+                Electrochemistry
+            </h3>
+
+            <p>
+                Learn electrochemical cells,
+                electrodes, batteries and corrosion.
+            </p>
+
+            <a href="electrochemistry.html"
+               class="topic-btn">
+
+                Open Topic
+
+            </a>
+
+        </div>
+
+
+        <!-- ORGANIC CHEMISTRY -->
+
+        <div class="topic-card">
+
+            <div class="topic-icon">
+                🧬
+            </div>
+
+            <h3>
+                Organic Chemistry
+            </h3>
+
+            <p>
+                Learn hydrocarbons, functional groups,
+                reactions and organic compounds.
+            </p>
+
+            <a href="organic-chemistry.html"
+               class="topic-btn">
+
+                Open Topic
+
+            </a>
+
+        </div>
+
+
+        <!-- POLYMERS -->
+
+        <div class="topic-card">
+
+            <div class="topic-icon">
+                🧵
+            </div>
+
+            <h3>
+                Polymers
+            </h3>
+
+            <p>
+                Learn polymerization, types of polymers,
+                properties and applications.
+            </p>
+
+            <a href="polymers.html"
+               class="topic-btn">
+
+                Open Topic
+
+            </a>
+
+        </div>
+
+
+        <!-- NANOTECHNOLOGY -->
+
+        <div class="topic-card">
+
+            <div class="topic-icon">
+                🔬
+            </div>
+
+            <h3>
+                Nanotechnology
+            </h3>
+
+            <p>
+                Learn nanomaterials, nanoparticles,
+                properties and engineering applications.
+            </p>
+
+            <a href="nanotechnology.html"
+               class="topic-btn">
+
+                Open Topic
+
+            </a>
+
+        </div>
+
+
+        <!-- WATER TECHNOLOGY -->
+
+        <div class="topic-card">
+
+            <div class="topic-icon">
+                💧
+            </div>
+
+            <h3>
+                Water Technology
+            </h3>
+
+            <p>
+                Learn water treatment, hardness,
+                purification and environmental chemistry.
+            </p>
+
+            <a href="water-technology.html"
+               class="topic-btn">
+
+                Open Topic
+
+            </a>
+
+        </div>
+
+
+        <!-- CORROSION -->
+
+        <div class="topic-card">
+
+            <div class="topic-icon">
+                ⚙️
+            </div>
+
+            <h3>
+                Corrosion
+            </h3>
+
+            <p>
+                Learn causes of corrosion,
+                types and corrosion prevention methods.
+            </p>
+
+            <a href="corrosion.html"
+               class="topic-btn">
+
+                Open Topic
+
+            </a>
+
+        </div>
+
+
+    </div>
+
+
+    <a href="academic.html"
+       class="back-btn">
+
+        ← Back to Academic Learning
+
+    </a>
+
+
+</div>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <p>
+        © 2026 NRI Institute of Technology
+    </p>
+
+    <p>
+        Engineering Chemistry Learning Portal
+    </p>
+
+</footer>
+
+
+</body>
+
+</html>

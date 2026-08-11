@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>NRIIT Learn - Second Year</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4faff;
+            color: #222;
+        }
+
+        /* Header */
+
+        header {
+            background-color: #d9f2ff;
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #075985;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #555;
+        }
+
+        /* Main */
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 40px auto;
+        }
+
+        .title {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .title h2 {
+            color: #075985;
+            font-size: 32px;
+        }
+
+        .title p {
+            margin-top: 10px;
+            color: #666;
+        }
+
+        /* Subjects */
+
+        .subjects {
+            display: grid;
+
+            grid-template-columns:
+            repeat(auto-fit, minmax(250px, 1fr));
+
+            gap: 25px;
+        }
+
+        .subject-card {
+            background-color: white;
+
+            padding: 25px;
+
+            border-radius: 12px;
+
+            text-align: center;
+
+            box-shadow:
+            0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .subject-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .icon {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        .subject-card h3 {
+            color: #075985;
+            margin-bottom: 10px;
+        }
+
+        .subject-card p {
+            color: #666;
+            line-height: 1.5;
+        }
+
+        /* Button */
+
+        .topic-btn {
+            display: inline-block;
+
+            margin-top: 15px;
+
+            padding: 10px 18px;
+
+            background-color: #0284c7;
+
+            color: white;
+
+            text-decoration: none;
+
+            border-radius: 6px;
+        }
+
+        .topic-btn:hover {
+            background-color: #075985;
+        }
+
+        /* Back */
+
+        .back-btn {
+            display: inline-block;
+
+            margin-top: 35px;
+
+            padding: 10px 18px;
+
+            background-color: #111827;
+
+            color: white;
+
+            text-decoration: none;
+
+            border-radius: 6px;
+        }
+
+        /* Footer */
+
+        footer {
+            margin-top: 50px;
+
+            background-color: #111827;
+
+            color: white;
+
+            text-align: center;
+
+            padding: 25px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<!-- HEADER -->
+
+<header>
+
+    <h1>NRI INSTITUTE OF TECHNOLOGY</h1>
+
+    <p>Student Learning Portal</p>
+
+</header>
+
+
+<!-- MAIN -->
+
+<div class="container">
+
+
+    <div class="title">
+
+        <h2>📚 Second Year</h2>
+
+        <p>
+            Select a subject to start learning.
+        </p>
+
+    </div>
+
+
+    <div class="subjects">
+
+
+        <!-- Data Structures -->
+
+        <div class="subject-card">
+
+            <div class="icon">🌳</div>
+
+            <h3>Data Structures</h3>
+
+            <p>
+                Learn arrays, linked lists, stacks,
+                queues, trees, graphs and algorithms.
+            </p>
+
+            <a href="data-structures.html"
+               class="topic-btn">
+
+                Open Data Structures
+
+            </a>
+
+        </div>
+
+
+        <!-- DBMS -->
+
+        <div class="subject-card">
+
+            <div class="icon">🗄️</div>
+
+            <h3>Database Management Systems</h3>
+
+            <p>
+                Learn databases, SQL, tables,
+                relationships and queries.
+            </p>
+
+            <a href="dbms.html"
+               class="topic-btn">
+
+                Open DBMS
+
+            </a>
+
+        </div>
+
+
+        <!-- Computer Networks -->
+
+        <div class="subject-card">
+
+            <div class="icon">🌐</div>
+
+            <h3>Computer Networks</h3>
+
+            <p>
+                Learn networking concepts,
+                protocols, devices and communication.
+            </p>
+
+            <a href="computer-networks.html"
+               class="topic-btn">
+
+                Open Computer Networks
+
+            </a>
+
+        </div>
+
+
+        <!-- Operating Systems -->
+
+        <div class="subject-card">
+
+            <div class="icon">💻</div>
+
+            <h3>Operating Systems</h3>
+
+            <p>
+                Learn processes, memory management,
+                scheduling and file systems.
+            </p>
+
+            <a href="operating-systems.html"
+               class="topic-btn">
+
+                Open Operating Systems
+
+            </a>
+
+        </div>
+
+
+        <!-- Java / OOP -->
+
+        <div class="subject-card">
+
+            <div class="icon">☕</div>
+
+            <h3>Java / OOP</h3>
+
+            <p>
+                Learn Java programming and
+                object-oriented programming concepts.
+            </p>
+
+            <a href="java-oop.html"
+               class="topic-btn">
+
+                Open Java / OOP
+
+            </a>
+
+        </div>
+
+
+        <!-- Discrete Mathematics -->
+
+        <div class="subject-card">
+
+            <div class="icon">🧮</div>
+
+            <h3>Discrete Mathematics</h3>
+
+            <p>
+                Learn sets, relations, functions,
+                logic, graphs and combinatorics.
+            </p>
+
+            <a href="discrete-mathematics.html"
+               class="topic-btn">
+
+                Open Discrete Mathematics
+
+            </a>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- BACK BUTTON -->
+
+    <a href="academic.html"
+       class="back-btn">
+
+        ← Back to Academic Learning
+
+    </a>
+
+
+</div>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <p>
+        © 2026 NRI Institute of Technology
+    </p>
+
+    <p>
+        Student Learning Portal
+    </p>
+
+</footer>
+
+
+</body>
+
+</html>
